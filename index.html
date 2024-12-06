@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Validade - SBCB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SHOPPING DA BEBIDA CABO BRANCO</h1>
+        </header>
+
+        <section class="form-section">
+            <h2>Cadastro de Produto</h2>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Nome do produto" required>
+                <input type="date" id="product-expiry" required>
+                <input type="number" id="product-quantity" placeholder="Quantidade" required>
+                <input type="text" id="product-sector" placeholder="Setor" required>
+                <button type="submit">Cadastrar Produto</button>
+            </form>
+        </section>
+
+        <section class="product-list">
+            <h2>Lista de Produtos</h2>
+            <ul id="product-list"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

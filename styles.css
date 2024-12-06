@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.form-section, .product-list {
+    margin-top: 30px;
+}
+
+form input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+.product-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: #28a745;
+    color: white;
+}
+
+.yellow {
+    background-color: #ffc107;
+    color: black;
+}
+
+.red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.black {
+    background-color: #343a40;
+    color: white;
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.delete-btn:hover {
+    background-color: #c82333;
+}
